@@ -20,7 +20,7 @@ public class IndexController {
     @GetMapping("/index")
     public String index() {
         try {
-            int a = 1 / 0;
+            // int a = 1 / 0;
             System.out.println("zee");
             return "welcom";
         } catch (Exception e) {
